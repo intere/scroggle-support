@@ -1,11 +1,34 @@
 <div class="container">
 
   <div>
-    <acme-navbar creation-date="main.creationDate"></acme-navbar>
+    <acme-navbar></acme-navbar>
   </div>
 
-  <div>
-    Rules
+  <div class="pad_bottom">
+    <h1>Goals and Rules</h1>
+    <h3>The goal is to score as high as you can by picking longer and more complex words.  The longer the word, the more points it's worth.</h3>
+  </div>
+
+  <div class="pad_bottom">
+    <h1>Rules</h1>
+    <ul>
+      <li><h3>Either click or swipe words on the board.</h3></li>
+      <li><h3>Letters MUST be adjacent (diagonal letters are legal)</h3></li>
+      <li><h3>A single die can only be used once per word</h3></li>
+    </ul>
+  </div>
+
+  <div class="pad_bottom">
+    <h1>Gameplay</h1>
+    <h3>To select a word, you either swipe the letters (in order) that you want to use to build a word</h3>
+    <h3>-or-</h3>
+    <h3>click the (adjacent) letters you want to use to make a word (terminate the word by clicking the final letter a second time).</h3>
+
+    <ul>
+      <li><h3>If the selection path becomes a red color, then the word is not in the game dictionary.</h3></li>
+      <li><h3>If the selection path becomes a yellow color, then you have already guessed that (valid) word</h3></li>
+      <li><h3>If the selection path remains a green color, then you have guessed a valid word and it will show up in the word list after a short pause</h3></li>
+    </ul>
   </div>
 
 </div>
