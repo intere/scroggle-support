@@ -1,4 +1,5 @@
 angular.module 'ScroggleSupport'
-  .run ($log) ->
+  .run ($log, Analytics) ->
     'ngInject'
+    Analytics.createAnalyticsScriptTag
     $log.debug 'runBlock end'
