@@ -3,14 +3,15 @@
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-6">
       <ul class="nav navbar-nav">
-        <li class="active text-uppercase"><a ng-href="#">Home</a></li>
-        <li class="text-uppercase"><a ng-href="#/support">Support</a></li>
-        <li class="text-uppercase"><a ng-href="#/rules">Goals + Rules</a></li>
-        <li class="text-uppercase"><a ng-href="#/help">Help</a></li>
+        <li ng-class="{active:route=='home'}" class="text-uppercase"><a ng-href="#">Home</a></li>
+        <li ng-class="{active:route=='support'}" class="text-uppercase"><a ng-href="#/support">Support</a></li>
+        <li ng-class="{active:route=='rules'}" class="text-uppercase"><a ng-href="#/rules">Goals + Rules</a></li>
+        <li ng-class="{active:route=='help'}" class="text-uppercase"><a ng-href="#/help">Help</a></li>
       </ul>
 
       <ul class="nav navbar-nav navbar-right acme-navbar-text">
         <!-- <li>Application was created {{ vm.relativeDate }}.</li> -->
+        <li ng-bind="route()"></li>
       </ul>
     </div>
   </div>

@@ -1,11 +1,12 @@
 angular.module 'ScroggleSupport'
   .directive 'acmeNavbar', ->
 
-    NavbarController = (moment) ->
+    NavbarController = (moment, $state, $scope) ->
       'ngInject'
       vm = this
       # "vm.creation" is avaible by directive option "bindToController: true"
       vm.relativeDate = moment(vm.creationDate).fromNow()
+      $scope.route = $state.current.name
       return
 
     directive =
