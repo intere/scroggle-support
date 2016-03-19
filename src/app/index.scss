@@ -41,15 +41,30 @@ $icon-font-path: "../../../scroggle-support/bower_components/bootstrap-sass/asse
   padding-top: 20px;
 }
 
-.video-container {
+.video_container {
     position: relative;
     padding-bottom: 56.25%;
     padding-top: 30px; height: 0; overflow: hidden;
 }
 
-.video-container iframe,
-.video-container object,
-.video-container embed {
+.image_header {
+  text-align: center;
+}
+
+.app_icon {
+  width: 135px;
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.download_image {
+  padding-left: 10px;
+  display: inline-block;
+}
+
+.video_container iframe,
+.video_container object,
+.video_container embed {
     position: absolute;
     top: 0;
     left: 0;
