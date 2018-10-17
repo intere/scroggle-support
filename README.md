@@ -27,6 +27,20 @@ Ensure steps 1-3 succeed for the Development section, then run the following com
 5. Add / Commit / Push all of the updates
 6. Profit! (okay, not really).
 
+#### Testing `dist` locally
+After completing step 4 of the prior `To update the site` instructions, you can use Python to test it locally:
+
+**Python3:**
+```bash
+python3 -m http.server 8000
+```
+
+**Python:**
+```bash
+python -m SimpleHTTPServer 8000
+```
+
+After running the appropriate `python` command (from above), you can point your browser to `http://localhost:8000` and see the site (as was generated as a distribution from the `gulp` command)
 
 ## Screenshots
 
