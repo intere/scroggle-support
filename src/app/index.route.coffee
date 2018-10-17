@@ -26,6 +26,12 @@ angular.module 'ScroggleSupport'
         controller: 'PrivacyController'
         controllerAs: 'privacy'
     $stateProvider
+      .state 'about',
+        url: '/about'
+        templateUrl: 'app/about/about.html'
+        controller: 'AboutController'
+        controllerAs: 'about'
+    $stateProvider
       .state 'help',
         url: '/help'
         templateUrl: 'app/help/help.html'
