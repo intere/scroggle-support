@@ -10,7 +10,16 @@ I've created support pages for my game Scroggle using Github's github.io hosting
 * Coffee
 * Bootstrap (3)
 
-## To update the site:
+## Development:
+1. Ensure you have python2 installed (and in your path)
+2. `npm install`
+3. `bower install`
+4. `gulp serve`
+
+## Releasing
+Ensure steps 1-3 succeed for the Development section, then run the following command: `gulp`
+
+### To update the site:
 1. Checkout the gh-pages branch
 2. Merge updates into gh-pages branch
 3. run ``gulp`` to build the code
@@ -25,3 +34,7 @@ I've created support pages for my game Scroggle using Github's github.io hosting
 ![Screenshot 2](https://raw.githubusercontent.com/intere/scroggle-support/master/screenshots/Screenshot2.png)
 ![Screenshot 3](https://raw.githubusercontent.com/intere/scroggle-support/master/screenshots/Screenshot3.png)
 ![Screenshot 4](https://raw.githubusercontent.com/intere/scroggle-support/master/screenshots/Screenshot4.png)
+
+## Tools
+- [Privacy Policy](https://termsfeed.com/download/free?agreement_type=PP&token=f445198c880432634bf5402515e0dae1)
+    - [Permalink](https://termsfeed.com/privacy-policy/f445198c880432634bf5402515e0dae1)
