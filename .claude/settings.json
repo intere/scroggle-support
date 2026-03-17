@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gulp *)",
+      "Bash(npm test)",
+      "Bash(npm install)",
+      "Bash(bower install)",
+      "Bash(karma start *)",
+      "Bash(git *)",
+      "mcp__robot-memory__*"
+    ]
+  },
+  "instructions": [
+    "Use gitmoji prefixes for all git commit messages. Examples: \ud83d\udc1b fix, \u2728 feat, \u267b\ufe0f refactor, \ud83d\udcdd docs, \u2705 test, \ud83d\udd27 chore, \u26a1 perf, \ud83d\udd25 remove, \ud83d\ude80 deploy"
+  ]
+}
